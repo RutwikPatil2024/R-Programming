@@ -1,0 +1,9 @@
+v<-c("Hello","how","are","you")
+x<-1
+repeat{
+  print(v[x])
+  x<-x+1
+  if(x>5){
+    break
+  }
+}
